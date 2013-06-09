@@ -1,0 +1,4 @@
+
+PASS: The file http://www.allegro.com/robots.txt exists with size 1361.
+
+#Presence of the file robots.txt on the web-server of www.allegro.com is verified

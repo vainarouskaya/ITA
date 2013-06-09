@@ -1,0 +1,4 @@
+
+PASS: The file http://www.shopping.com/robots.txt exists with size 64.
+
+#Presence of the file robots.txt on the web-server of www.shopping.com is verified

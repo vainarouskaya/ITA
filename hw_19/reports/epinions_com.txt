@@ -1,0 +1,5 @@
+
+FAIL: File http://www.epinions.com/robots.txt does not exists as the page status code is 301, expected status code: 200
+
+#Presence of the file robots.txt on the web-server of www.epionions.com is not verified
+#File does not exist.
