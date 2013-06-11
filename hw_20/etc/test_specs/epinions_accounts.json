@@ -1,0 +1,129 @@
+{
+    "epinions_invalid_id":
+    [
+        {
+            "username" : "saxon011", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon012", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon013", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon014", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon015", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon016", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon017", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon018", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon019", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon020", "password" : "1234567"
+        }
+    ],
+    "epinions_invalid_password":
+    [
+        {
+            "username" : "saxon001", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon002", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon003", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon004", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon005", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon006", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon007", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon008", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon009", "password" : "01234567"
+        },
+
+ {
+            "username" : "saxon010", "password" : "01234567"
+        }
+    ],
+    "epinions_valid_accounts":
+    [
+        {
+            "username" : "saxon001", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon002", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon003", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon004", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon005", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon006", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon007", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon008", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon009", "password" : "1234567"
+        },
+
+ {
+            "username" : "saxon010", "password" : "1234567"
+        }
+
+    ]
+}
