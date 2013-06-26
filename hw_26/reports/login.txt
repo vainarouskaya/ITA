@@ -1,0 +1,79 @@
+
+Epinions - Validate Epinions.com login on all listed servers.
+
+________________________________________________________________________________________________________________________
+Web Server: http://www.epinions.com
+________________________________________________________________________________________________________________________
+
+test_01
+
+Validations:
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon011/1234567.
+ PASS: The user 'saxon011' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon012/1234567.
+ PASS: The user 'saxon012' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon013/1234567.
+ PASS: The user 'saxon013' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon014/1234567.
+ PASS: The user 'saxon014' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon015/1234567.
+ PASS: The user 'saxon015' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon016/1234567.
+ PASS: The user 'saxon016' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon017/1234567.
+ PASS: The user 'saxon017' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon018/1234567.
+ PASS: The user 'saxon018' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon019/1234567.
+ PASS: The user 'saxon019' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid ID, message 'Invalid Epinions ID' is displayed : saxon020/1234567.
+ PASS: The user 'saxon020' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_02
+
+Validations:
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon001/01234567.
+ PASS: The user 'saxon001' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon002/01234567.
+ PASS: The user 'saxon002' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon003/01234567.
+ PASS: The user 'saxon003' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon004/01234567.
+ PASS: The user 'saxon004' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon005/01234567.
+ PASS: The user 'saxon005' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon006/01234567.
+ PASS: The user 'saxon006' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon007/01234567.
+ PASS: The user 'saxon007' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon008/01234567.
+ PASS: The user 'saxon008' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon009/01234567.
+ PASS: The user 'saxon009' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+ PASS: For Invalid password, message 'Invalid Password' is displayed : saxon010/01234567.
+ PASS: The user 'saxon010' is not Logged In, 'Already a member? Sign in.' text is present on the page.
+
+test_03
+
+Validations:
+ PASS: For Valid credentials, message 'saxon001's Account' is displayed : saxon001/1234567.
+ PASS: User 'saxon001' has Logged In as text 'Sign Out' is displayed : saxon001/1234567.
+ FAIL: For Valid credentials, message 'saxon002's Account' is not displayed : saxon002/1234567
+ PASS: User 'saxon002' has Logged In as text 'Sign Out' is displayed : saxon002/1234567.
+ FAIL: For Valid credentials, message 'saxon003's Account' is not displayed : saxon003/1234567
+ PASS: User 'saxon003' has Logged In as text 'Sign Out' is displayed : saxon003/1234567.
+ FAIL: For Valid credentials, message 'saxon004's Account' is not displayed : saxon004/1234567
+ PASS: User 'saxon004' has Logged In as text 'Sign Out' is displayed : saxon004/1234567.
+ FAIL: For Valid credentials, message 'saxon005's Account' is not displayed : saxon005/1234567
+ PASS: User 'saxon005' has Logged In as text 'Sign Out' is displayed : saxon005/1234567.
+ FAIL: For Valid credentials, message 'saxon006's Account' is not displayed : saxon006/1234567
+ PASS: User 'saxon006' has Logged In as text 'Sign Out' is displayed : saxon006/1234567.
+ FAIL: For Valid credentials, message 'saxon007's Account' is not displayed : saxon007/1234567
+ PASS: User 'saxon007' has Logged In as text 'Sign Out' is displayed : saxon007/1234567.
+ FAIL: For Valid credentials, message 'saxon008's Account' is not displayed : saxon008/1234567
+ PASS: User 'saxon008' has Logged In as text 'Sign Out' is displayed : saxon008/1234567.
+ FAIL: For Valid credentials, message 'saxon009's Account' is not displayed : saxon009/1234567
+ PASS: User 'saxon009' has Logged In as text 'Sign Out' is displayed : saxon009/1234567.
+ FAIL: For Valid credentials, message 'saxon010's Account' is not displayed : saxon010/1234567
+ PASS: User 'saxon010' has Logged In as text 'Sign Out' is displayed : saxon010/1234567.
+
