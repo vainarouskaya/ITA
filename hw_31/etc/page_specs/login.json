@@ -1,0 +1,25 @@
+{
+    "test_scenarios" :
+    {
+        "test_01":
+        {
+            "account_type" : "epi_invalid_id",
+            "error_messsage_xpath" : "//span[@class='rrr']",
+            "invalid_id_error"  : "Invalid Epinions ID",
+            "sign_in_page_text" : "Already a member? Sign in."
+        },
+        "test_02":
+        {
+            "account_type" : "epi_invalid_password",
+            "error_messsage_xpath" : "//span[@class='rrr']",
+            "invalid_id_error"  : "Invalid Password",
+            "sign_in_page_text" : "Already a member? Sign in."
+        },
+        "test_03":
+        {
+            "account_type" : "epi_valid",
+            "sign_out_text" : "Sign Out"
+        }
+    }
+
+}
