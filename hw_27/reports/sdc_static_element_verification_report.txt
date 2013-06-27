@@ -48,6 +48,24 @@ Validations:
   PASS: The attribute 'type' exist.
   PASS: attribute 'type' value exist and not NIL.
 ------------------------------------------------------------------------------------------------------------------------
+
+Sign Up Elements:
+________________________________________________________________________________________________________________________
+Element: 50 : <a>
+
+Validations:
+ PASS: Element exists and the occurrence count: 5
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+
+ Attribute: 02 : href
+
+  PASS: The attribute 'href' exist.
+  PASS: Attribute 'href' value matches the expected value.
+------------------------------------------------------------------------------------------------------------------------
 ========================================================================================================================
 PAGE: 02 : http://www.khatilov.com/qa/apps/sign_up/v4
 ========================================================================================================================
@@ -94,4 +112,22 @@ Validations:
 
   PASS: The attribute 'type' exist.
   PASS: attribute 'type' value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+
+Sign Up Elements:
+________________________________________________________________________________________________________________________
+Element: 50 : <a>
+
+Validations:
+ PASS: Element exists and the occurrence count: 2
+
+ Attribute: 01 : id
+
+  PASS: The attribute 'id' exist.
+  PASS: Attribute 'id' value matches the expected value.
+
+ Attribute: 02 : href
+
+  PASS: The attribute 'href' exist.
+  PASS: Attribute 'href' value matches the expected value.
 ------------------------------------------------------------------------------------------------------------------------
