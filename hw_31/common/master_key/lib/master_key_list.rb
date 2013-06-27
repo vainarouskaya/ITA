@@ -87,7 +87,7 @@ end
           cred_details.each do |cred|
             begin
               #cred['password'] = cred['password'].decrypt(:symmetric, :password => 'secret_key')
-              cred['password'] = cred['password'].encrypt(:symmetric, :password => get_key())
+              cred['password'] = cred['password'].decrypt(:symmetric, :password => get_key())
             rescue Exception => e
               cred['password'] = cred['password']
             end
