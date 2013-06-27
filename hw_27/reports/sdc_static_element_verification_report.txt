@@ -55,16 +55,7 @@ Element: 50 : <a>
 
 Validations:
  PASS: Element exists and the occurrence count: 5
-
- Attribute: 01 : id
-
-  PASS: The attribute 'id' exist.
-  PASS: Attribute 'id' value matches the expected value.
-
- Attribute: 02 : href
-
-  PASS: The attribute 'href' exist.
-  PASS: Attribute 'href' value matches the expected value.
+ PASS: Element value matches the expected value.
 ------------------------------------------------------------------------------------------------------------------------
 ========================================================================================================================
 PAGE: 02 : http://www.khatilov.com/qa/apps/sign_up/v4
@@ -120,14 +111,7 @@ Element: 50 : <a>
 
 Validations:
  PASS: Element exists and the occurrence count: 2
-
- Attribute: 01 : id
-
-  PASS: The attribute 'id' exist.
-  PASS: Attribute 'id' value matches the expected value.
-
- Attribute: 02 : href
-
-  PASS: The attribute 'href' exist.
-  PASS: Attribute 'href' value matches the expected value.
+ FAIL: The 'a' values do not match;
+       Expected: rubygems.org::output-to-file
+       Actual: 
 ------------------------------------------------------------------------------------------------------------------------
