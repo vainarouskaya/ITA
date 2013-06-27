@@ -1,0 +1,19 @@
+{
+    "pages" :
+    [
+        {
+            "page_id" : "01",
+            "page_name":"Sign Up",
+            "page_url" : "/qa/apps/sign_up/v1",
+            "page_spec" : "khatilovdotcom_sign_up_page_element_value.json"
+	},
+        {
+            "page_id" : "02",
+            "page_name":"Sign Up",
+            "page_url" : "/qa/apps/sign_up/v4",
+            "page_spec" : "khatilovdotcom_sign_up_page_element_value.json"
+		
+	
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+
+FE Static Element Validation
+
+========================================================================================================================
+PAGE: 01 : http://www.khatilov.com/qa/apps/sign_up/v1
+========================================================================================================================
+
+Common Elements:
+________________________________________________________________________________________________________________________
+Element: 01 : <title>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+ PASS: Element value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+Element: 02 : <meta>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+------------------------------------------------------------------------------------------------------------------------
+Element: 03 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+------------------------------------------------------------------------------------------------------------------------
+Element: 04 : <p>
+
+Validations:
+ FAIL: The element does not exist.
+------------------------------------------------------------------------------------------------------------------------
+Element: 05 : <meta>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+
+ Attribute: 01 : content
+
+  PASS: The attribute 'content' exist.
+  PASS: attribute 'content' value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+Element: 06 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : type
+
+  PASS: The attribute 'type' exist.
+  PASS: attribute 'type' value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+========================================================================================================================
+PAGE: 02 : http://www.khatilov.com/qa/apps/sign_up/v4
+========================================================================================================================
+
+Common Elements:
+________________________________________________________________________________________________________________________
+Element: 01 : <title>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+ PASS: Element value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+Element: 02 : <meta>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+------------------------------------------------------------------------------------------------------------------------
+Element: 03 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+------------------------------------------------------------------------------------------------------------------------
+Element: 04 : <p>
+
+Validations:
+ FAIL: The element does not exist.
+------------------------------------------------------------------------------------------------------------------------
+Element: 05 : <meta>
+
+Validations:
+ PASS: Element exists and the occurrence count: 1
+
+ Attribute: 01 : content
+
+  PASS: The attribute 'content' exist.
+  PASS: attribute 'content' value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------
+Element: 06 : <input>
+
+Validations:
+ PASS: Element exists and the occurrence count: 9
+
+ Attribute: 01 : type
+
+  PASS: The attribute 'type' exist.
+  PASS: attribute 'type' value exist and not NIL.
+------------------------------------------------------------------------------------------------------------------------

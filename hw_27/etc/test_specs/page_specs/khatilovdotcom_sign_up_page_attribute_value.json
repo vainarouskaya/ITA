@@ -1,0 +1,26 @@
+{
+"elements":
+    [
+        {
+            "element_id" : "50",
+            "element_name" : "a",
+            "element_type" : "link",
+            "element_value" : "",
+            "selector" : "",
+            "selector_value" : "",
+            "attributes" :
+            [
+                {
+                    "attribute_id" : "01",
+                    "attribute_name" : "id",
+                    "attribute_value" : "id_link_facebook"
+                },
+                {
+                    "attribute_id" : "02",
+                    "attribute_name" : "href",
+                    "attribute_value" : "http://www.facebook.com/"
+                }
+            ]
+        }
+    ]
+}
