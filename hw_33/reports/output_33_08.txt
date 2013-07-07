@@ -1,0 +1,4 @@
+Here are sorted (alphabetically) words: Fall
+Spring
+Summer
+Winter 

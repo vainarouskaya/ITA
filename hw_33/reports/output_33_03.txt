@@ -1,0 +1,1 @@
+When I am dividing 100 by 10 I am always have 10!

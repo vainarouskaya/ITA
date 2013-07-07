@@ -1,0 +1,1 @@
+Average score of (35, 45, 61, 59 and 73) is 54
